@@ -29,3 +29,14 @@ This project uses DVC to manage large datasets.
    dvc pull
    ```
    *Note: Ensure you have access to the configured local remote storage.*
+
+## Statistical Hypothesis Testing
+This project includes a module for statistical validation of risk drivers.
+Run the hypothesis tests:
+```bash
+python scripts/test_hypotheses.py
+```
+This script evaluates:
+- Risk differences across Provinces and ZipCodes.
+- Margin differences across ZipCodes.
+- Risk differences between Genders.
