@@ -7,3 +7,5 @@ scikit-learn
 jupyter
 pytest
 flake8
+xgboost
+shap
