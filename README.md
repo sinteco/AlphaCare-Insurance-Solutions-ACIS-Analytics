@@ -40,3 +40,15 @@ This script evaluates:
 - Risk differences across Provinces and ZipCodes.
 - Margin differences across ZipCodes.
 - Risk differences between Genders.
+
+## Predictive Modeling
+This project builds machine learning models to predict Claim Severity.
+Train and evaluate models:
+```bash
+python scripts/train_models.py
+```
+Models implemented:
+- Linear Regression
+- Random Forest (Best Performance)
+- XGBoost
+Includes SHAP analysis for feature importance.
