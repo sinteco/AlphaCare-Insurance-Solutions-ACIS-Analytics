@@ -37,8 +37,7 @@ venv.bak/
 .idea/
 
 # Data
-data/raw/
-data/processed/
+# data/raw/ and data/processed/ are managed by DVC or explicit ignores
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 

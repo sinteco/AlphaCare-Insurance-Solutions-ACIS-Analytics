@@ -1,0 +1,4 @@
+[core]
+    remote = localstorage
+['remote "localstorage"']
+    url = /Users/sintayehuabaynhe/Public/10/dvc_storage
