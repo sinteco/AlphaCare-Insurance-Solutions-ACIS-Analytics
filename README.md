@@ -16,4 +16,16 @@ This project involves analyzing historical insurance claim data for AlphaCare In
    ```bash
    pip install -r requirements.txt
    ```
-3. Run analysis (instructions to be added).
+3. Run analysis:
+   ```bash
+   python scripts/perform_eda.py
+   ```
+
+## Data Version Control (DVC)
+This project uses DVC to manage large datasets.
+1. Install DVC: `pip install dvc`
+2. Pull data from remote:
+   ```bash
+   dvc pull
+   ```
+   *Note: Ensure you have access to the configured local remote storage.*
