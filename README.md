@@ -34,7 +34,7 @@ This project uses DVC to manage large datasets.
 This project includes a module for statistical validation of risk drivers.
 Run the hypothesis tests:
 ```bash
-python scripts/test_hypotheses.py
+python scripts/run_hypothesis_tests.py
 ```
 This script evaluates:
 - Risk differences across Provinces and ZipCodes.

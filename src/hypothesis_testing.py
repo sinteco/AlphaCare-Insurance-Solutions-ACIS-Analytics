@@ -2,7 +2,7 @@ import pandas as pd
 from scipy import stats
 import numpy as np
 
-def test_risk_differences_categorical(df, group_col, target_col, risk_type='frequency'):
+def calculate_risk_differences(df, group_col, target_col, risk_type='frequency'):
     """
     Tests for risk differences across categorical groups.
     
@@ -63,7 +63,7 @@ def test_risk_differences_categorical(df, group_col, target_col, risk_type='freq
         
     return results
 
-def test_margin_differences(df, group_col, margin_col='Margin'):
+def calculate_margin_differences(df, group_col, margin_col='Margin'):
     """
     Tests for margin differences across groups.
     """
